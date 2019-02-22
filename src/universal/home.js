@@ -8,11 +8,12 @@ class Home extends Component {
     const min = 1;
     const max = 100;
     const randomNumber = Math.floor(Math.random() * (max - min)) + min;
-    ldClient.track('add to cart');
+    ldClient.variation('image.hover', false);
     this.setState({randomNumber});
   };
 
   render() {
+    ldClient.variation('image.hover', false);
     return (
       <div>
         <h1>Welcome to ld-react example</h1>
