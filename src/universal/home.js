@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {withFlags} from 'ld-react';
+import {withFlags, ldClient} from 'ld-react';
 
 class Home extends Component {
   state = {randomNumber: 0};
@@ -8,6 +8,7 @@ class Home extends Component {
     const min = 1;
     const max = 100;
     const randomNumber = Math.floor(Math.random() * (max - min)) + min;
+    ldClient.track('add to cart');
     this.setState({randomNumber});
   };
 
