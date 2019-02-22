@@ -8,7 +8,7 @@ class Home extends Component {
     const min = 1;
     const max = 100;
     const randomNumber = Math.floor(Math.random() * (max - min)) + min;
-    ldClient.track('add to cart');
+    ldClient.variation('add to cart');
     this.setState({randomNumber});
   };
 
