@@ -17,9 +17,9 @@ class Home extends Component {
       <div>
         <h1>Welcome to ld-react example</h1>
         <div>
-          To run this example: 'log-level'
+          To run this example: 'log-level' 'log-level'
           <ul>
-            <li>'newflag' In app.js, set clientSideId to your own Client-side ID. You can find this in the dashboard underAccount settings / Projects.</li>
+            <li>'newflag' 'newflag'  In app.js, set clientSideId to your own Client-side ID. You can find this in the dashboard underAccount settings / Projects.</li>
             <li>Create a flag called 'dev-test-flag' in your project and turn it on and off.</li>
           </ul>
         </div>
