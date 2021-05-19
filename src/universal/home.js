@@ -17,9 +17,8 @@ class Home extends Component {
       <div>
         <h1>Welcome to ld-react example</h1>
         <div>
-          To run this example: 'rbc-top-image'
           <ul>
-            <li>'client-side-flag'  In app.js, set clientSideId to your own Client-side ID. You can find this in the dashboard underAccount settings / Projects.</li>
+            <li>In app.js, set clientSideId to your own Client-side ID. You can find this in the dashboard underAccount settings / Projects.</li>
             <li>Create a flag called 'dev-test-flag' in your project and turn it on and off.</li>
           </ul>
         </div>

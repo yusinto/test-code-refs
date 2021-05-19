@@ -9,7 +9,6 @@ const app = Express();
 
 app.use('/dist', Express.static('dist', {maxAge: '1d'}));
 
-// log-level
 app.use((req, res) => {
   const html = `<!DOCTYPE html>
                     <html>
